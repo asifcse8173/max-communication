@@ -16,10 +16,10 @@ a {
   transition: color 0.3s ease;
 }
 a:hover {
-  color: #0353aa;
+  color:white;
 }
 header {
-  background: linear-gradient(90deg, #0077cc 0%, #004a99 100%);
+  background: linear-gradient(90deg, rgb(6, 240, 209) 0%, #0c0c0c 100%);
   padding: 1rem 2rem;
   color: #fff;
   position: sticky;
@@ -30,7 +30,7 @@ header {
 
 .container {
   max-width: 1100px;
-  margin: 0 auto;
+  margin-left: 15px;
 }
 
 nav {
@@ -45,6 +45,7 @@ nav {
   font-size: 1.8rem;
   letter-spacing: 2px;
   font-family: 'Segoe UI Black', 'Arial Black', Arial, sans-serif;
+  margin-left: 14px;
 }
 nav ul {
   list-style: none;
@@ -61,7 +62,7 @@ nav ul li {
 
 /* Hero Section */
 #hero {
-  background: url('https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+  background: url('https://content3.jdmagicbox.com/comp/ernakulam/c5/0484px484.x484.131004102709.k9c5/catalogue/smart-mobile-shop-kakkanad-ernakulam-mobile-phone-dealers-sony-a0996vg6mz.jpg') center/cover no-repeat;
   height: 75vh;
   color: white;
   display: flex;
