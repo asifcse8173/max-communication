@@ -1,3 +1,4 @@
+
 /* Reset and base */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -62,7 +63,8 @@ nav ul li {
 
 /* Hero Section */
 #hero {
-  background: url('https://content3.jdmagicbox.com/comp/ernakulam/c5/0484px484.x484.131004102709.k9c5/catalogue/smart-mobile-shop-kakkanad-ernakulam-mobile-phone-dealers-sony-a0996vg6mz.jpg') center/cover no-repeat;
+  background: url(max.jpg);
+  background-size:cover;
   height: 75vh;
   color: white;
   display: flex;
@@ -70,7 +72,7 @@ nav ul li {
   justify-content: center;
   text-align: center;
   padding: 0 2rem;
-  position: relative;
+  position:relative;
 }
 #hero::after {
   content: "";
@@ -298,4 +300,5 @@ footer a {
     gap: 1rem;
   }
 }
+
 
